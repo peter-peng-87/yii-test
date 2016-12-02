@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="{$static_url}/ui/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+{literal}
+$.extend({
+	  hello:function(){alert('hello');}
+});
+var person = {
+		"name":"张三",
+		"gender":"男",
+		getName:function(){
+			return "姓名:" + this.name;
+		},
+		getGender:function(){
+			return "性别:" + this.gender;
+		}
+};
+function Man(name){
+	this.name = name;
+	this.list = [];
+	this.getName = function(){
+		return this.name;
+	}
+	this.setName = function(name){
+		this.name = name;
+	}
+	this.addList = function(list){
+		this.list.push(list);
+	}
+	this.getList = function(){
+		return this.list;
+	}
+	this.getDataJosn = function(){
+		var data = {};
+		data.name = this.name;
+		data.list = this.list;
+		return JSON.stringify(data);
+	}
+}
+function getOnePerson(){
+	$.extend(person, {
+		getName:function(){
+			return "姓名更新:" + this.name;
+		}
+	}
+	);
+	alert(person.getName());
+}
+function getPerson(){
+	alert(person.getName());
+}
+function getNewPerson()
+{
+	console.log(person);
+	var one = new Man('zhangsan');
+	//alert(one.getName());
+	one.setName('lisi');
+	one.addList({child:"boy",age:"10"});
+	one.addList({child:"gril",age:"5"});
+	one.addList({child:"boy2",age:"10"});
+	one.addList({child:"boy3",age:"10"});
+	alert(one.getDataJosn());
+}
+var obj = {fun:function(){
+    alert("1");
+}}
+jQuery.extend( obj , {name:'重写参数',
+                 fun:function(){ 
+                   alert(2);// 重写方法
+                 }
+});
+obj.fun();
+var default_parm = {name:"1"};
+var parm = {name:"2"};
+jQuery.extend( default_parm , parm);
+//alert("name:" + default_parm.name);
+{/literal}
+</script>
+</head>
+<body>
+<div>
+<br/>extend start!!!
+<br/>{$test}!!!;
+<div id="jq-extend">
+</div>
+<button onclick="javascript:$.hello();">extend</button>
+<button onclick="javascript:getPerson()">Person</button>
+<button onclick="javascript:getOnePerson();">Extend-Person</button>
+<button onclick="javascript:getNewPerson();">Extend-Person</button>
+</div>
+</body>
+</html>
