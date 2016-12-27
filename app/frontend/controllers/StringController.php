@@ -79,4 +79,18 @@ class StringController extends Controller
         $str = $ucfirst ? ucfirst($str) : $str;
         return $str;
     }
+    
+    function actionEval()
+    {
+        $girl = 28;
+        $num = 2;
+        $person = 9;
+        $str = 0;
+        try {
+            eval('$str = $girl * $num - $person/0;');
+        } catch (\Exception $e) {
+            echo "error!!!";
+        }
+        echo $str;
+    }
 }

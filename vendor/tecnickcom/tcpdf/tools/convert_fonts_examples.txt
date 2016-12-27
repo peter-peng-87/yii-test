@@ -1,0 +1,43 @@
+./tcpdf_addfont.php -b -t Type1 -f 4 -e symbol -i pdfasymbol.pfb
+./tcpdf_addfont.php -b -t Type1 -f 4 -i pdfazapfdingbats.pfb
+./tcpdf_addfont.php -b -t Type1 -f 32 -e cp1252 -i pdfatimes.pfb,pdfatimesb.pfb,pdfahelvetica.pfb,pdfahelveticab.pfb
+./tcpdf_addfont.php -b -t Type1 -f 33 -e cp1252 -i pdfacourier.pfb,pdfacourierb.pfb
+./tcpdf_addfont.php -b -t Type1 -f 96 -e cp1252 -i pdfahelveticabi.pfb,pdfahelveticai.pfb,pdfatimesi.pfb,pdfatimesbi.pfb
+./tcpdf_addfont.php -b -t Type1 -f 97 -e cp1252 -i pdfacourieri.pfb,pdfacourierbi.pfb
+
+
+./tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i DejaVuSans.ttf,DejaVuSans-Bold.ttf,DejaVuSansCondensed.ttf,DejaVuSansCondensed-Bold.ttf,DejaVuSans-ExtraLight.ttf,DejaVuSerif.ttf,DejaVuSerif-Bold.ttf,DejaVuSerifCondensed.ttf,DejaVuSerifCondensed-Bold.ttf
+./tcpdf_addfont.php -b -t TrueTypeUnicode -f 33 -i DejaVuSansMono.ttf,DejaVuSansMono-Bold.ttf
+./tcpdf_addfont.php -b -t TrueTypeUnicode -f 96 -i DejaVuSans-BoldOblique.ttf,DejaVuSansCondensed-BoldOblique.ttf,DejaVuSansCondensed-Oblique.ttf,DejaVuSerifCondensed-BoldItalic.ttf,DejaVuSerifCondensed-Italic.ttf,DejaVuSerif-Italic.ttf,DejaVuSerif-BoldItalic.ttf,DejaVuSans-Oblique.ttf
+./tcpdf_addfont.php -b -t TrueTypeUnicode -f 97 -i DejaVuSansMono-BoldOblique.ttf,DejaVuSansMono-Oblique.ttf
+
+
+
+./tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i FreeSans.ttf,FreeSansBold.ttf,FreeSerif.ttf,FreeSerifBold.ttf
+./tcpdf_addfont.php -b -t TrueTypeUnicode -f 33 -i FreeMono.ttf,FreeMonoBold.ttf
+./tcpdf_addfont.php -b -t TrueTypeUnicode -f 96 -i FreeSansBoldOblique.ttf,FreeSansOblique.ttf,FreeSerifBoldItalic.ttf,FreeSerifItalic.ttf
+./tcpdf_addfont.php -b -t TrueTypeUnicode -f 97 -i FreeMonoBoldOblique.ttf,FreeMonoOblique.ttf
+
+
+./tcpdf_addfont.php -b -t TrueTypeUnicode -i aeAlArabiya.ttf,aeFurat.ttf
+
+
+./tcpdf_addfont.php -b -t CID0JP -f 32 -i cid0jp.ttf
+./tcpdf_addfont.php -b -t CID0KR -f 32 -i cid0kr.ttf
+./tcpdf_addfont.php -b -t CID0CS -f 32 -i cid0cs.ttf
+./tcpdf_addfont.php -b -t CID0CT -f 32 -i cid0ct.ttf
+
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i fz-beiwei.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i simfang.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i wr-jiankai.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i wr-zhongyuan.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i wr-yahei.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i wr-lishu.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i fz-kai.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i simhei.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i zhongkai.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i jq-jiankai.ttf
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i simkai.ttf
+
+php tcpdf_addfont.php -b -t TrueTypeUnicode -f 32 -i angsab.ttf,corbelb.ttf,KhmerUIb.ttf,raavib.ttf,upcdi.ttf,angsai.ttf,corbeli.ttf,kokila.ttf,rod.ttf,upcdl.ttf,angsau.ttf,corbelz.ttf,kokilab.ttf,segoepr.ttf,upceb.ttf,angsaub.ttf,cordia.ttf,kokilabi.ttf,segoeprb.ttf,upcebi.ttf,angsauz.ttf,cordiab.ttf,kokilai.ttf,segoesc.ttf,upcei.ttf,angsaz.ttf,cordiai.ttf,LaoUI.ttf,segoescb.ttf,upcel.ttf,aparaj.ttf,cordiau.ttf,LaoUIb.ttf,segoeui.ttf,upcfb.ttf,aparajb.ttf,cordiaub.ttf,latha.ttf,segoeuib.ttf,upcfbi.ttf,aparaji.ttf,cordiaui.ttf,lathab.ttf,segoeuii.ttf,upcfi.ttf,arial.ttf,cordiauz.ttf,leelawad.ttf,segoeuil.ttf,upcfl.ttf,arialbd.ttf,cordiaz.ttf,leelawdb.ttf,segoeuiz.ttf,upcib.ttf,arialbi.ttf,cour.ttf,lucon.ttf,seguisb.ttf,upcibi.ttf,ariali.ttf,courbd.ttf,lvnm.ttf,seguisym.ttf,upcii.ttf,ariblk.ttf,courbi.ttf,lvnmbd.ttf,Shonar.ttf,upcil.ttf,browa.ttf,couri.ttf,majalla.ttf,Shonarb.ttf,upcjb.ttf,browab.ttf,daunpenh.ttf,majallab.ttf,shruti.ttf,upcjbi.ttf,browai.ttf,david.ttf,malgun.ttf,shrutib.ttf,upcji.ttf,browau.ttf,davidbd.ttf,malgunbd.ttf,simfang.ttf,upcjl.ttf,browaub.ttf,dokchamp.ttf,mangal.ttf,simhei.ttf,upckb.ttf,browaui.ttf,ebrima.ttf,mangalb.ttf,simkai.ttf,upckbi.ttf,browauz.ttf,ebrimabd.ttf,micross.ttf,simpbdo.ttf,upcki.ttf,browaz.ttf,euphemia.ttf,monbaiti.ttf,simpfxo.ttf,upckl.ttf,calibri.ttf,framd.ttf,moolbor.ttf,simpo.ttf,upclb.ttf,calibrib.ttf,framdit.ttf,mriam.ttf,simsunb.ttf,upclbi.ttf,calibrii.ttf,frank.ttf,mriamc.ttf,sylfaen.ttf,upcli.ttf,calibriz.ttf,Gabriola.ttf,msjh.ttf,symbol.ttf,upcll.ttf,cambriab.ttf,gautami.ttf,msjhbd.ttf,tahoma.ttf,utsaah.ttf,cambriai.ttf,gautamib.ttf,msuighur.ttf,tahomabd.ttf,utsaahb.ttf,cambriaz.ttf,georgia.ttf,msyh.ttf,taile.ttf,utsaahbi.ttf,Candara.ttf,georgiab.ttf,msyhbd.ttf,taileb.ttf,utsaahi.ttf,Candarab.ttf,georgiai.ttf,msyi.ttf,times.ttf,Vani.ttf,Candarai.ttf,georgiaz.ttf,mvboli.ttf,timesbd.ttf,Vanib.ttf,Candaraz.ttf,gisha.ttf,nrkis.ttf,timesbi.ttf,verdana.ttf,comic.ttf,gishabd.ttf,ntailu.ttf,timesi.ttf,verdanab.ttf,comicbd.ttf,himalaya.ttf,ntailub.ttf,tradbdo.ttf,verdanai.ttf,consola.ttf,impact.ttf,nyala.ttf,trado.ttf,verdanaz.ttf,consolab.ttf,iskpota.ttf,pala.ttf,trebuc.ttf,vijaya.ttf,consolai.ttf,iskpotab.ttf,palab.ttf,trebucbd.ttf,vijayab.ttf,consolaz.ttf,kaiu.ttf,palabi.ttf,trebucbi.ttf,vrinda.ttf,constan.ttf,kalinga.ttf,palai.ttf,trebucit.ttf,vrindab.ttf,constanb.ttf,kalingab.ttf,phagspa.ttf,tunga.ttf,constani.ttf,kartika.ttf,phagspab.ttf,tungab.ttf,constanz.ttf,kartikab.ttf,plantc.ttf,upcdb.ttf,corbel.ttf,KhmerUI.ttf,raavi.ttf,upcdbi.ttf
+

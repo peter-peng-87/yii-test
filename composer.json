@@ -34,7 +34,8 @@
         "cy/excel": ">=0.0.4",
         "mrclay/minify": "^2.3",
         "tubalmartin/cssmin": "^2.4",
-        "curl/curl": "^1.5"
+        "curl/curl": "^1.5",
+        "tecnickcom/tcpdf": "^6.2"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

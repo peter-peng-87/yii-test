@@ -68,4 +68,8 @@ class CurlController extends Controller
         echo "delete";
     }
     
+    public function actionSearch()
+    {
+       
+    }
 }
